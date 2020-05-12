@@ -1,3 +1,9 @@
+alphabet = [
+    'A', 'B', 'C', 'D',	'E', 'F', 'G', 'H',	'I', 'J', 'K', 'L', 'M', 'N', 'O',
+    'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'
+]
+
+
 def is_number(s):
     """ Check if the number is a float """
     try:
@@ -58,4 +64,4 @@ def convert_cusip_to_isin(cusip):
 
     return isin
 
-print(convert_cusip_to_isin('037833100'))
+# print(convert_cusip_to_isin('037833100'))
